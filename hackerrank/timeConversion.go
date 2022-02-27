@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -31,6 +30,6 @@ func timeConversion(s string) string {
 	}
 }
 
-func main() {
-	fmt.Println(timeConversion("12:03:04AM")) // 00:03:04
-}
+// func main() {
+// 	fmt.Println(timeConversion("12:03:04AM")) // 00:03:04
+// }
