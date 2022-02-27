@@ -29,6 +29,6 @@ func miniMaxSum(arr []int32) {
 	fmt.Println(miniSumOfFourElements, maxSumOfFourElements)
 }
 
-func main() {
-	miniMaxSum([]int32{1, 2, 3, 4, 5}) // result 10 14
-}
+// func main() {
+// 	miniMaxSum([]int32{1, 2, 3, 4, 5}) // result 10 14
+// }

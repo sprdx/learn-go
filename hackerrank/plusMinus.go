@@ -29,6 +29,6 @@ func plusMinus(arr []int32) {
 	fmt.Printf("%.6f\n", countZero/lenghtArray)
 }
 
-func main() {
-	plusMinus([]int32{1, 1, 0, -1, -1}) // result 0.400000, 0.400000, 0.200000
-}
+// func main() {
+// 	plusMinus([]int32{1, 1, 0, -1, -1}) // result 0.400000, 0.400000, 0.200000
+// }
