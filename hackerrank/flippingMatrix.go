@@ -2,6 +2,16 @@ package main
 
 import "fmt"
 
+/*
+Algorithm:
+1. Set variable to save result of finding possible max operation
+2. Do looping as much as an half of length of matrix
+3. Do checking for each cell of submatrix upper-left quadran
+4. When checking for highest cell value, compare init cell value to three others possible cell if assumme we do reverse rows/columns
+5. Add obtained value to result variable
+6. Return possibleMaxSum variable
+*/
+
 // flippingMatrix returns possible maximum sum of submatrix n x n quadran from 2n x 2n matrix
 func flippingMatrix(matrix [][]int32) int32 {
 	// Write your code here
