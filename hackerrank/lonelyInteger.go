@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -25,6 +24,6 @@ func lonelyinteger(a []int32) int32 {
 	return a[len(a)-1]
 }
 
-func main() {
-	fmt.Println(lonelyinteger([]int32{1, 3, 2, 1, 2})) // result 3
-}
+// func main() {
+// 	fmt.Println(lonelyinteger([]int32{1, 3, 2, 1, 2})) // result 3
+// }
