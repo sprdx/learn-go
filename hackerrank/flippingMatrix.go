@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 Algorithm:
 1. Set variable to save result of finding possible max operation
@@ -34,11 +32,11 @@ func flippingMatrix(matrix [][]int32) int32 {
 	return possibleMaxSum
 }
 
-func main() {
-	fmt.Println(flippingMatrix([][]int32{{1, 2}, {3, 4}})) // return 4
-	fmt.Println(flippingMatrix([][]int32{
-		{1, 2, 3, 4},
-		{3, 4, 5, 6},
-		{5, 6, 7, 8},
-		{7, 8, 9, 10}})) // return 10 + 9 + 8 + 7 = 34
-}
+// func main() {
+// 	fmt.Println(flippingMatrix([][]int32{{1, 2}, {3, 4}})) // return 4
+// 	fmt.Println(flippingMatrix([][]int32{
+// 		{1, 2, 3, 4},
+// 		{3, 4, 5, 6},
+// 		{5, 6, 7, 8},
+// 		{7, 8, 9, 10}})) // return 10 + 9 + 8 + 7 = 34
+// }
