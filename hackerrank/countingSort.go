@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 Algorithm:
 1. Set an array with 100 elements
@@ -29,6 +27,6 @@ func countingSort(arr []int32) []int32 {
 	return countingArr
 }
 
-func main() {
-	fmt.Println(countingSort([]int32{1, 2, 3})) // return {0, 1, 1, 1, 0, ..., 0}
-}
+// func main() {
+// 	fmt.Println(countingSort([]int32{1, 2, 3})) // return {0, 1, 1, 1, 0, ..., 0}
+// }

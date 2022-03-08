@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 Algorithm:
 1. Do looping throughout the lenght of array
@@ -30,7 +28,7 @@ func diagonalDifference(arr [][]int32) int32 {
 	return diff
 }
 
-func main() {
-	diff := diagonalDifference([][]int32{{1, 2, 3}, {3, 4, 5}, {5, 6, 7}})
-	fmt.Println(diff) // result 12 - 12 = 0
-}
+// func main() {
+// 	diff := diagonalDifference([][]int32{{1, 2, 3}, {3, 4, 5}, {5, 6, 7}})
+// 	fmt.Println(diff) // result 12 - 12 = 0
+// }
